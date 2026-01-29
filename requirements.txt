@@ -1,0 +1,20 @@
+#analisis
+pandas
+numpy
+openpyxl
+
+#visualizacion
+matplotlib
+seaborn
+plotly
+
+#analisis estadistico
+statsmodels # Análisis de tendencias y estacionalidad
+scikit-learn # Clustering de tickets y predicciones básicas
+prophet # Predicción de volumen de tickets (Meta)
+
+
+# utilidades
+ipykernel
+tqdm
+python-dotenv
