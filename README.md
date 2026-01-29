@@ -47,3 +47,14 @@ pip install -r requirements.txt
 15. fecha_de_cierre
 16. fecha_de_solucion
 17. unnamed_16
+
+# Columnas agregadas:
+
+1. resolucion_horas_decimal
+2. cumple_SLA
+3. fecha_de_apertura_dia
+4. fecha_de_apertura_mes
+5. fecha_de_apertura_año
+6. fecha_de_apertura_hora
+7. creado_en_horario_laboral
+8. fecha_de_apertura_periodo_mes
