@@ -169,7 +169,7 @@ Se elimino la columna 'unnamed_16'.
 año 2021:
 <class 'pandas.DataFrame'>
 RangeIndex: 2 entries, 0 to 1
-Data columns (total 24 columns):
+Data columns (total 26 columns):
  #   Column                                Non-Null Count  Dtype         
 ---  ------                                --------------  -----         
  0   id                                    2 non-null      int64         
@@ -184,26 +184,28 @@ Data columns (total 24 columns):
  9   categoria                             2 non-null      str           
  10  origen_de_la_solicitud                2 non-null      str           
  11  ubicacion                             0 non-null      str           
- 12  estadisticas__hora_de_resolucion      2 non-null      str           
- 13  seguimientos__origen_de_la_solicitud  0 non-null      str           
- 14  fecha_de_cierre                       2 non-null      datetime64[us]
- 15  fecha_de_solucion                     0 non-null      datetime64[s] 
- 16  resolucion_horas_decimal              2 non-null      float64       
- 17  cumple_SLA                            2 non-null      bool          
- 18  fecha_de_apertura_dia                 2 non-null      int32         
- 19  fecha_de_apertura_mes                 2 non-null      int32         
- 20  fecha_de_apertura_año                 2 non-null      int32         
- 21  fecha_de_apertura_hora                2 non-null      int32         
- 22  creado_en_horario_laboral             2 non-null      bool          
- 23  fecha_de_apertura_periodo_mes         2 non-null      period[M]     
-dtypes: bool(2), datetime64[s](1), datetime64[us](3), float64(1), int32(4), int64(1), period[M](1), str(11)
-memory usage: 456.0 bytes
+ 12  seguimientos__origen_de_la_solicitud  0 non-null      str           
+ 13  fecha_de_cierre                       2 non-null      datetime64[us]
+ 14  fecha_de_solucion                     0 non-null      datetime64[s] 
+ 15  cumple_SLA                            2 non-null      bool          
+ 16  fecha_de_apertura_dia                 2 non-null      int32         
+ 17  fecha_de_apertura_mes                 2 non-null      int32         
+ 18  fecha_de_apertura_año                 2 non-null      int32         
+ 19  fecha_de_apertura_hora                2 non-null      int32         
+ 20  fecha_de_apertura_periodo_mes         2 non-null      period[M]     
+ 21  creado_en_horario_laboral             2 non-null      bool          
+ 22  area                                  2 non-null      str           
+ 23  servicio                              2 non-null      str           
+ 24  tiempo_vida_horas                     2 non-null      float64       
+ 25  prioridad_num                         2 non-null      int64         
+dtypes: bool(2), datetime64[s](1), datetime64[us](3), float64(1), int32(4), int64(2), period[M](1), str(12)
+memory usage: 488.0 bytes
 None
 ----------------------------------------
 año 2022:
 <class 'pandas.DataFrame'>
 RangeIndex: 3827 entries, 0 to 3826
-Data columns (total 24 columns):
+Data columns (total 26 columns):
  #   Column                                Non-Null Count  Dtype         
 ---  ------                                --------------  -----         
  0   id                                    3827 non-null   int64         
@@ -218,26 +220,28 @@ Data columns (total 24 columns):
  9   categoria                             2956 non-null   str           
  10  origen_de_la_solicitud                3826 non-null   str           
  11  ubicacion                             10 non-null     str           
- 12  estadisticas__hora_de_resolucion      3827 non-null   str           
- 13  seguimientos__origen_de_la_solicitud  1040 non-null   str           
- 14  fecha_de_cierre                       3827 non-null   datetime64[us]
- 15  fecha_de_solucion                     2 non-null      datetime64[us]
- 16  resolucion_horas_decimal              3827 non-null   float64       
- 17  cumple_SLA                            3827 non-null   bool          
- 18  fecha_de_apertura_dia                 3827 non-null   int32         
- 19  fecha_de_apertura_mes                 3827 non-null   int32         
- 20  fecha_de_apertura_año                 3827 non-null   int32         
- 21  fecha_de_apertura_hora                3827 non-null   int32         
- 22  creado_en_horario_laboral             3827 non-null   bool          
- 23  fecha_de_apertura_periodo_mes         3827 non-null   period[M]     
-dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(1), period[M](1), str(11)
-memory usage: 605.6 KB
+ 12  seguimientos__origen_de_la_solicitud  1040 non-null   str           
+ 13  fecha_de_cierre                       3827 non-null   datetime64[us]
+ 14  fecha_de_solucion                     2 non-null      datetime64[us]
+ 15  cumple_SLA                            3827 non-null   bool          
+ 16  fecha_de_apertura_dia                 3827 non-null   int32         
+ 17  fecha_de_apertura_mes                 3827 non-null   int32         
+ 18  fecha_de_apertura_año                 3827 non-null   int32         
+ 19  fecha_de_apertura_hora                3827 non-null   int32         
+ 20  fecha_de_apertura_periodo_mes         3827 non-null   period[M]     
+ 21  creado_en_horario_laboral             3827 non-null   bool          
+ 22  area                                  3827 non-null   str           
+ 23  servicio                              3827 non-null   str           
+ 24  tiempo_vida_horas                     3827 non-null   float64       
+ 25  prioridad_num                         3827 non-null   int64         
+dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(2), period[M](1), str(12)
+memory usage: 665.4 KB
 None
 ----------------------------------------
 año 2023:
 <class 'pandas.DataFrame'>
 RangeIndex: 36259 entries, 0 to 36258
-Data columns (total 24 columns):
+Data columns (total 26 columns):
  #   Column                                Non-Null Count  Dtype         
 ---  ------                                --------------  -----         
  0   id                                    36259 non-null  int64         
@@ -252,26 +256,28 @@ Data columns (total 24 columns):
  9   categoria                             34161 non-null  str           
  10  origen_de_la_solicitud                36259 non-null  str           
  11  ubicacion                             2199 non-null   str           
- 12  estadisticas__hora_de_resolucion      36259 non-null  str           
- 13  seguimientos__origen_de_la_solicitud  10185 non-null  str           
- 14  fecha_de_cierre                       36259 non-null  datetime64[us]
- 15  fecha_de_solucion                     11929 non-null  datetime64[us]
- 16  resolucion_horas_decimal              36259 non-null  float64       
- 17  cumple_SLA                            36259 non-null  bool          
- 18  fecha_de_apertura_dia                 36259 non-null  int32         
- 19  fecha_de_apertura_mes                 36259 non-null  int32         
- 20  fecha_de_apertura_año                 36259 non-null  int32         
- 21  fecha_de_apertura_hora                36259 non-null  int32         
- 22  creado_en_horario_laboral             36259 non-null  bool          
- 23  fecha_de_apertura_periodo_mes         36259 non-null  period[M]     
-dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(1), period[M](1), str(11)
-memory usage: 5.6 MB
+ 12  seguimientos__origen_de_la_solicitud  10185 non-null  str           
+ 13  fecha_de_cierre                       36259 non-null  datetime64[us]
+ 14  fecha_de_solucion                     11929 non-null  datetime64[us]
+ 15  cumple_SLA                            36259 non-null  bool          
+ 16  fecha_de_apertura_dia                 36259 non-null  int32         
+ 17  fecha_de_apertura_mes                 36259 non-null  int32         
+ 18  fecha_de_apertura_año                 36259 non-null  int32         
+ 19  fecha_de_apertura_hora                36259 non-null  int32         
+ 20  fecha_de_apertura_periodo_mes         36259 non-null  period[M]     
+ 21  creado_en_horario_laboral             36259 non-null  bool          
+ 22  area                                  36259 non-null  str           
+ 23  servicio                              36259 non-null  str           
+ 24  tiempo_vida_horas                     36259 non-null  float64       
+ 25  prioridad_num                         36259 non-null  int64         
+dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(2), period[M](1), str(12)
+memory usage: 6.2 MB
 None
 ----------------------------------------
 año 2024:
 <class 'pandas.DataFrame'>
 RangeIndex: 35004 entries, 0 to 35003
-Data columns (total 24 columns):
+Data columns (total 26 columns):
  #   Column                                Non-Null Count  Dtype         
 ---  ------                                --------------  -----         
  0   id                                    35004 non-null  int64         
@@ -286,26 +292,28 @@ Data columns (total 24 columns):
  9   categoria                             31389 non-null  str           
  10  origen_de_la_solicitud                35003 non-null  str           
  11  ubicacion                             3973 non-null   str           
- 12  estadisticas__hora_de_resolucion      35004 non-null  str           
- 13  seguimientos__origen_de_la_solicitud  9877 non-null   str           
- 14  fecha_de_cierre                       34923 non-null  datetime64[us]
- 15  fecha_de_solucion                     13400 non-null  datetime64[us]
- 16  resolucion_horas_decimal              35004 non-null  float64       
- 17  cumple_SLA                            35004 non-null  bool          
- 18  fecha_de_apertura_dia                 35004 non-null  int32         
- 19  fecha_de_apertura_mes                 35004 non-null  int32         
- 20  fecha_de_apertura_año                 35004 non-null  int32         
- 21  fecha_de_apertura_hora                35004 non-null  int32         
- 22  creado_en_horario_laboral             35004 non-null  bool          
- 23  fecha_de_apertura_periodo_mes         35004 non-null  period[M]     
-dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(1), period[M](1), str(11)
-memory usage: 5.4 MB
+ 12  seguimientos__origen_de_la_solicitud  9877 non-null   str           
+ 13  fecha_de_cierre                       34923 non-null  datetime64[us]
+ 14  fecha_de_solucion                     13400 non-null  datetime64[us]
+ 15  cumple_SLA                            35004 non-null  bool          
+ 16  fecha_de_apertura_dia                 35004 non-null  int32         
+ 17  fecha_de_apertura_mes                 35004 non-null  int32         
+ 18  fecha_de_apertura_año                 35004 non-null  int32         
+ 19  fecha_de_apertura_hora                35004 non-null  int32         
+ 20  fecha_de_apertura_periodo_mes         35004 non-null  period[M]     
+ 21  creado_en_horario_laboral             35004 non-null  bool          
+ 22  area                                  35004 non-null  str           
+ 23  servicio                              35004 non-null  str           
+ 24  tiempo_vida_horas                     34923 non-null  float64       
+ 25  prioridad_num                         35004 non-null  int64         
+dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(2), period[M](1), str(12)
+memory usage: 5.9 MB
 None
 ----------------------------------------
 año 2025:
 <class 'pandas.DataFrame'>
 RangeIndex: 36527 entries, 0 to 36526
-Data columns (total 24 columns):
+Data columns (total 26 columns):
  #   Column                                Non-Null Count  Dtype         
 ---  ------                                --------------  -----         
  0   id                                    36527 non-null  int64         
@@ -320,20 +328,20 @@ Data columns (total 24 columns):
  9   categoria                             34169 non-null  str           
  10  origen_de_la_solicitud                36526 non-null  str           
  11  ubicacion                             2337 non-null   str           
- 12  estadisticas__hora_de_resolucion      36527 non-null  str           
- 13  seguimientos__origen_de_la_solicitud  10109 non-null  str           
- 14  fecha_de_cierre                       36527 non-null  datetime64[us]
- 15  fecha_de_solucion                     25074 non-null  datetime64[us]
- 16  resolucion_horas_decimal              36527 non-null  float64       
- 17  cumple_SLA                            36527 non-null  bool          
- 18  fecha_de_apertura_dia                 36527 non-null  int32         
- 19  fecha_de_apertura_mes                 36527 non-null  int32         
- 20  fecha_de_apertura_año                 36527 non-null  int32         
- 21  fecha_de_apertura_hora                36527 non-null  int32         
- 22  creado_en_horario_laboral             36527 non-null  bool          
- 23  fecha_de_apertura_periodo_mes         36527 non-null  period[M]     
-dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(1), period[M](1), str(11)
-memory usage: 5.6 MB
-None
-----------------------------------------
+ 12  seguimientos__origen_de_la_solicitud  10109 non-null  str           
+ 13  fecha_de_cierre                       36527 non-null  datetime64[us]
+ 14  fecha_de_solucion                     25074 non-null  datetime64[us]
+ 15  cumple_SLA                            36527 non-null  bool          
+ 16  fecha_de_apertura_dia                 36527 non-null  int32         
+ 17  fecha_de_apertura_mes                 36527 non-null  int32         
+ 18  fecha_de_apertura_año                 36527 non-null  int32         
+ 19  fecha_de_apertura_hora                36527 non-null  int32         
+ 20  fecha_de_apertura_periodo_mes         36527 non-null  period[M]     
+ 21  creado_en_horario_laboral             36527 non-null  bool          
+ 22  area                                  36527 non-null  str           
+ 23  servicio                              36527 non-null  str           
+ 24  tiempo_vida_horas                     36527 non-null  float64       
+ 25  prioridad_num                         36527 non-null  int64         
+dtypes: bool(2), datetime64[us](4), float64(1), int32(4), int64(2), period[M](1), str(12)
+memory usage: 6.2 MB
 ```
