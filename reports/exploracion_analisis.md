@@ -17,14 +17,15 @@ La columna "estadisticas__hora_de_resolucion" calcula tiempos de resolucion auto
 
 Ademas, en el año 2023 se encuentran 214 tickets con fecha de cierre anterior a la de apertura de la solicitud. Estos como representan un 0.59% de los datos de 2023 se eliminan, ademas que generan inconsistencia, ruido y es un volumen insignificante para modelos predictivos y Series de Tiempo.
 
-```
-	fecha_de_apertura	fecha_de_cierre	tiempo_vida_horas	resolucion_horas_decimal	estadisticas__hora_de_resolucion
-0	2024-12-17 17:45:00	NaT	NaN	0.00	0 segundos
-1	2024-12-10 09:04:00	NaT	NaN	0.00	0 segundos
-2	2024-12-23 17:32:00	NaT	NaN	0.00	0 segundos
-3	2024-05-24 14:49:00	2024-05-27 08:29:00	65.67	0.17	10 minutos
-4	2024-04-17 18:00:00	2024-05-02 22:20:00	364.33	311.28	12 días 23 horas 17 minutos
-```
+
+| fecha_de_apertura | fecha_de_cierre | tiempo_vida_horas | resolucion_horas_decimal | estadisticas__hora_de_resolucion |
+| :--- | :--- | :--- | :--- | :--- |
+| 2024-12-17 17:45:00 | NaT | NaN | 0.00 | 0 segundos |
+| 2024-12-10 09:04:00 | NaT | NaN | 0.00 | 0 segundos |
+| 2024-12-23 17:32:00 | NaT | NaN | 0.00 | 0 segundos |
+| 2024-05-24 14:49:00 | 2024-05-27 08:29:00 | 65.67 | 0.17 | 10 minutos |
+| 2024-04-17 18:00:00 | 2024-05-02 22:20:00 | 364.33 | 311.28 | 12 días 23 horas 17 minutos |
+
 
 ```
 % nulos en el DataFrame 2021:
