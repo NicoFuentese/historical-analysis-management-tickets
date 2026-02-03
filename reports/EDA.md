@@ -19,3 +19,39 @@ Se puede ver las tendencias observadas previamente. Ademas que se aprecia una le
 ![Heat de dia del Mes vs Horas del dia](img/hm_dm_h.png)
 
 Se aprecia el mayor pick de tickets emitidos los dias 2 de cada mes a las 12:00 horas.
+
+## Grafico de Barras Pareto 80%
+
+Del grafico se puede ver que el area DBA y Soporte de Campo son gigantes. Ademas, hay una categoria "sin Categoria" que es grande (9000 tickets aprox.) Es importante tratar estos campos vacios para aumentar la calidad de los datos.
+
+![Barplot de Pareto para areas solicitadas](img/barplot_pareto_areas.png)
+
+Las areas en conjunto de DBA, Soporte de Campo, Aplicaciones, MDA corresponden al 80% del volumen de tickets. Es decir, que si solucionaramos estas areas podriamos disminuir/solucionar el 80% de los problemas con ticketeras. Mencionar que el area "Sin Categoria" es parte de este 80%, por lo que, es un problema no poder etiquetar el area del ticket.
+
+## Histogramas y boxplots de analisis de Prioridad y tiempos
+
+El histograma entrega la cantidad alta de ticket con un menor tiempo de vida. Lo que se puede interpretar como que los ingenieros le dedican la mayor parte de su tiempo a resolver las tareas con menor tiempo. 
+
+![Histograma tv y boxplot de prioridad](img/hst_bxp_tck_p.png)
+
+Los boxplots indican que los tickets de prioridad Muy Alta se resuelven muy rapido, por lo que, los ingenieros saben distribuir y priorizar buen sus tiempos a la resolucion.
+
+Aunque, los de prioridad Mayor tienen los mayores tiempos de resolucion, y esta es la mayor categoria de prioridad.
+
+## Analisis % de Tickets "Sin Categoria" por mes y correlacion con el Volumen
+
+Se aprecia un crecimiento a mediados de 2024 y que dura hasta mediados del 2025. Esto se atribuye al cambio de proveedor directo de asistencia de tickets. Por lo que, los datos importantes por el momento de analizar es mediados de 2025.
+
+![Serie temporal de crecimiento % tickets](img/st_pt)
+
+El ingreso de la nueva empresa se puede ver que disminuyo radicalmente bajo el umbral del 6% de ticket sin categorizar, sim embargo, es preocupante el aumento lento pero progresivo de los tickets sin categoria asignada, superando el umbral llegando a noviembre de 2025 y bajando en el siguiente mes. Sin embargo, esto se atribuye a que en diciembre disminuye drasticamente el volumen de ticket asignado, y se tiene una correlacion levemente positiva (0.21). 
+
+![Boxplot tiempos de vida Sin Categoria](img/bx_sc)
+
+Por otro lado, se aprecia que los tickets no categorizados poseen mayores tiempos de resolucion, aprox. unas 11 horas mayores en promedio de vida. Siendo un 16& de retraso y esto se traduce en costo operativo.
+
+## Origenes de los tickets Sin Categoria
+
+El origen de los ticket solo tiene 4 opciones: Email, Helpdesk, Phone, Other. E-mail es quien alberga 6000 tickets Sin Categoria y lo sigue Helpdesk con menos de 3000. El cuello de botella que posee mas de la mitad de los tickets sin categorizar seria origen Email.
+
+![Barplot origen Sin categoria](img/bp_sc)
