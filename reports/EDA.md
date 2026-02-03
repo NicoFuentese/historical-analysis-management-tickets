@@ -42,11 +42,11 @@ Aunque, los de prioridad Mayor tienen los mayores tiempos de resolucion, y esta 
 
 Se aprecia un crecimiento a mediados de 2024 y que dura hasta mediados del 2025. Esto se atribuye al cambio de proveedor directo de asistencia de tickets. Por lo que, los datos importantes por el momento de analizar es mediados de 2025.
 
-![Serie temporal de crecimiento % tickets](img/st_pt)
+![Serie temporal de crecimiento % tickets](img/st_pt.png)
 
 El ingreso de la nueva empresa se puede ver que disminuyo radicalmente bajo el umbral del 6% de ticket sin categorizar, sim embargo, es preocupante el aumento lento pero progresivo de los tickets sin categoria asignada, superando el umbral llegando a noviembre de 2025 y bajando en el siguiente mes. Sin embargo, esto se atribuye a que en diciembre disminuye drasticamente el volumen de ticket asignado, y se tiene una correlacion levemente positiva (0.21). 
 
-![Boxplot tiempos de vida Sin Categoria](img/bx_sc)
+![Boxplot tiempos de vida Sin Categoria](img/bx_sc.png)
 
 Por otro lado, se aprecia que los tickets no categorizados poseen mayores tiempos de resolucion, aprox. unas 11 horas mayores en promedio de vida. Siendo un 16& de retraso y esto se traduce en costo operativo.
 
@@ -54,4 +54,4 @@ Por otro lado, se aprecia que los tickets no categorizados poseen mayores tiempo
 
 El origen de los ticket solo tiene 4 opciones: Email, Helpdesk, Phone, Other. E-mail es quien alberga 6000 tickets Sin Categoria y lo sigue Helpdesk con menos de 3000. El cuello de botella que posee mas de la mitad de los tickets sin categorizar seria origen Email.
 
-![Barplot origen Sin categoria](img/bp_sc)
+![Barplot origen Sin categoria](img/bp_sc.png)
