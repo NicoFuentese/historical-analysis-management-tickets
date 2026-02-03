@@ -19,3 +19,7 @@ prophet # Predicción de volumen de tickets (Meta)
 ipykernel
 tqdm
 python-dotenv
+
+# conexiones y APIs
+glob
+os
