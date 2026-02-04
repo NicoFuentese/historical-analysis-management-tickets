@@ -32,7 +32,7 @@ Los tickets segun los dias y meses no presenta diferencias muy notables, en gene
 
 Se puede ver en el heatmap que la carga esta balanceada durante el año de trabajo de forma historica. Pero Enero y Diciembre son los meses con mayor volumen de tickets generados, levemente superiores pero es algo a tener en cuenta para una calidad de tickets estandar y controlada.
 
-### Analisis de Tickets Sin Categoria (sin Area asignada)
+# Analisis de Tickets Sin Categoria (sin Area asignada)
 
 ## Grafico de Barras Pareto 80%
 
