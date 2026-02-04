@@ -86,6 +86,10 @@ Por la parte de la asignacion a un grupo de trabajo, Se aprecia que la no catego
 
 ![Barplot de asignacion de grupal a ticket Categorizado y no Categorizado](img/bp_sc_g.png)
 
+analizando los tickets que estan completamente huerfanos (Sin asignacion grupal ni individual). Se aprecia que existe un 6.5% de ticket con estas caracteristicas de los No categorizados, casi un 4% mayor que los categorizados y se aprecia el efecto de la No Categorizacion de un ticket.
+
+![Barplot de asignacion total de ticket Categorizado y no Categorizado](img/bp_pbt_ttl.png)
+
 ## Analisis de asignacion de tecnico / Grupal a ticket por categoria y evolucion temporal
 
 Con el tiempo se aprecia una tendencia a la disminucion de los ticket sin personal asignado. Sin embargo, los ticket Sin Categoria siguen aumentando su porcentaje de sin asignacion de tecnico, lo que a 2025 llega a un 12.5%.
@@ -95,3 +99,7 @@ Con el tiempo se aprecia una tendencia a la disminucion de los ticket sin person
 Por el lado de la asignacion a un grupo de trabajo, se aprecia que la tendencia aumenta a no asignarse a un grupo mientras no sea categorizado. Mientras que si un ticket es Categorizado la tendencia es a ser asignado a un grupo de trabajo.
 
 ![Grafico de linea de % ticket no asignado a grupal segun Categoria](img/gl_ept_g.png)
+
+analizando los tickets que estan completamente huerfanos (Sin asignacion grupal ni individual). Se aprecia la evolucion a la baja de estas malas practicas, sin embargo, los tickets Sin Categoria siguen siendo mayores historicamente y en 2025 estos tickets huerfanos llegan a ser del 2.5% de los Sin Categoria, lo que sigue siendo el doble del porcentaje de los que si son etiquetados.
+
+![Grafico de linea de % ticket no asignacion total segun Categoria](img/bp_pbt_ttl.png)
