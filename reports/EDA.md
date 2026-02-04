@@ -20,6 +20,12 @@ Se puede ver las tendencias observadas previamente. Ademas que se aprecia una le
 
 Se aprecia el mayor pick de tickets emitidos los dias 2 de cada mes a las 12:00 horas.
 
+### Heatmap de Dia vs Mes del ticker
+
+Los tickets segun los dias y meses no presenta diferencias muy notables, en general son continuos. Sin embargo, existe un pequeño aumento para los meses de Diciembre y Enero de la apertura de tickets.
+
+![Heatmap del dia vs mes](img/hm_ds_m.png)
+
 ### Heatmap de meses vs dias de la semana
 
 ![Heatmap meses vs dias](img/hm_md.png)
