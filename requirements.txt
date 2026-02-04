@@ -20,6 +20,4 @@ ipykernel
 tqdm
 python-dotenv
 
-# conexiones y APIs
-glob
-os
+# utilidades adicionales (glob y os son módulos built-in)

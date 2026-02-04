@@ -20,6 +20,12 @@ Se puede ver las tendencias observadas previamente. Ademas que se aprecia una le
 
 Se aprecia el mayor pick de tickets emitidos los dias 2 de cada mes a las 12:00 horas.
 
+### Heatmap de meses vs dias de la semana
+
+![Heatmap meses vs dias](img/hm_md.png)
+
+Se puede ver en el heatmap que la carga esta balanceada durante el año de trabajo de forma historica. Pero Enero y Diciembre son los meses con mayor volumen de tickets generados, levemente superiores pero es algo a tener en cuenta para una calidad de tickets estandar y controlada.
+
 ## Grafico de Barras Pareto 80%
 
 Del grafico se puede ver que el area DBA y Soporte de Campo son gigantes. Ademas, hay una categoria "sin Categoria" que es grande (9000 tickets aprox.) Es importante tratar estos campos vacios para aumentar la calidad de los datos.
