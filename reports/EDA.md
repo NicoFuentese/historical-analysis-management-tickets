@@ -76,14 +76,22 @@ Los tickets se puede ver que se crean la mayoria  a la misma hora y no tienen co
 
 ![KD sin ticket](img/kd_tc.png)
 
-## Analisis de Tickets sin asignado un tecnico y importancia a la Categoria del Ticket
+## Analisis de Tickets sin asignado un tecnico / Grupaly importancia a la Categoria del Ticket
 
 Se puede ver que la Categorizacion correcta del ticket es fundamental historicamente para que el ticket tenga un tecnico resolutivo asignado. En cambio, un ticket Sin Categoria involucra un aumento de los tickets sin persona asignada.
 
 ![Barplot de asignacion de tecnico a ticket Categorizado y no Categorizado](img/bp_pbt.png)
 
-## Analisis de asignacion de tecnico a ticket por categoria y evolucion temporal
+Por la parte de la asignacion a un grupo de trabajo, Se aprecia que la no categorizacion afecta en un 20% de los ticket no asignados a un grupo de trabajo.
+
+![Barplot de asignacion de grupal a ticket Categorizado y no Categorizado](img/bp_sc_g.png)
+
+## Analisis de asignacion de tecnico / Grupal a ticket por categoria y evolucion temporal
 
 Con el tiempo se aprecia una tendencia a la disminucion de los ticket sin personal asignado. Sin embargo, los ticket Sin Categoria siguen aumentando su porcentaje de sin asignacion de tecnico, lo que a 2025 llega a un 12.5%.
 
 ![Grafico de linea de % ticket no asignado a personal segun Categoria](img/gl_ept.png)
+
+Por el lado de la asignacion a un grupo de trabajo, se aprecia que la tendencia aumenta a no asignarse a un grupo mientras no sea categorizado. Mientras que si un ticket es Categorizado la tendencia es a ser asignado a un grupo de trabajo.
+
+![Grafico de linea de % ticket no asignado a grupal segun Categoria](img/gl_ept_g.png)
