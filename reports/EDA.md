@@ -26,6 +26,8 @@ Se aprecia el mayor pick de tickets emitidos los dias 2 de cada mes a las 12:00 
 
 Se puede ver en el heatmap que la carga esta balanceada durante el año de trabajo de forma historica. Pero Enero y Diciembre son los meses con mayor volumen de tickets generados, levemente superiores pero es algo a tener en cuenta para una calidad de tickets estandar y controlada.
 
+### Analisis de Tickets Sin Categoria (sin Area asignada)
+
 ## Grafico de Barras Pareto 80%
 
 Del grafico se puede ver que el area DBA y Soporte de Campo son gigantes. Ademas, hay una categoria "sin Categoria" que es grande (9000 tickets aprox.) Es importante tratar estos campos vacios para aumentar la calidad de los datos.
@@ -67,3 +69,15 @@ El origen de los ticket solo tiene 4 opciones: Email, Helpdesk, Phone, Other. E-
 Los tickets se puede ver que se crean la mayoria  a la misma hora y no tienen correlaciones importantes fuera de horario laboral.
 
 ![KD sin ticket](img/kd_tc.png)
+
+## Analisis de Tickets sin asignado un tecnico y importancia a la Categoria del Ticket
+
+Se puede ver que la Categorizacion correcta del ticket es fundamental historicamente para que el ticket tenga un tecnico resolutivo asignado. En cambio, un ticket Sin Categoria involucra un aumento de los tickets sin persona asignada.
+
+![Barplot de asignacion de tecnico a ticket Categorizado y no Categorizado](img/bp_pbt.png)
+
+## Analisis de asignacion de tecnico a ticket por categoria y evolucion temporal
+
+Con el tiempo se aprecia una tendencia a la disminucion de los ticket sin personal asignado. Sin embargo, los ticket Sin Categoria siguen aumentando su porcentaje de sin asignacion de tecnico, lo que a 2025 llega a un 12.5%.
+
+![Grafico de linea de % ticket no asignado a personal segun Categoria](img/gl_ept.png)
