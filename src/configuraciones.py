@@ -70,3 +70,23 @@ def configuracion_format_df(df_all):
     df_all = df_all[df_all["fecha_de_apertura_año"].between(2022,2025)]
     print("Configuracion fechas lista")
     return df_all
+
+#carga y preparacion de los dfs globales
+def procesar_jerarquia(df):
+    if 'categoria' not in df.columns: return df
+    series_cat = df['categoria'].fillna('Sin Categoria').astype(str)
+    df['area'] = series_cat.apply(lambda x: x.split('>')[0].strip() if '>' in x else x.strip())
+    
+    # Función interna para limpiar texto (mojibake)
+    def reparar_texto(texto):
+        if not isinstance(texto, str): return texto
+        reemplazos = {
+            'Ã³': 'ó', 'Ã¡': 'á', 'Ã©': 'é', 'Ã\xad': 'í', 'Ã': 'í', 'Ã±': 'ñ', 'Ãº': 'ú',
+            'Ã\x81': 'Á', 'Ã\x89': 'É', 'Ã\x8d': 'Í', 'Ã\x93': 'Ó', 'Ã\x9a': 'Ú', 'Ã\x91': 'Ñ'
+        }
+        for mal, bien in reemplazos.items():
+            if mal in texto: texto = texto.replace(mal, bien)
+        return texto.strip()
+    
+    df['area'] = df['area'].apply(reparar_texto)
+    return df
