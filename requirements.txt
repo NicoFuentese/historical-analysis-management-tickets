@@ -3,6 +3,7 @@ pandas
 numpy
 openpyxl
 chardet
+nltk
 
 #visualizacion
 matplotlib
@@ -13,7 +14,7 @@ plotly
 statsmodels # Análisis de tendencias y estacionalidad
 scikit-learn # Clustering de tickets y predicciones básicas
 prophet # Predicción de volumen de tickets (Meta)
-
+xgboost
 
 # utilidades
 ipykernel
