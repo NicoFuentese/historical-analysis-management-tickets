@@ -90,3 +90,10 @@ def procesar_jerarquia(df):
     
     df['area'] = df['area'].apply(reparar_texto)
     return df
+
+#limpiar texto
+def limpiar_texto(texto):
+    if not isinstance(texto, str): return ""
+    texto = texto.lower()
+    texto = re.sub(r'[^a-záéíóúñ ]', '', texto)
+    return texto.strip()

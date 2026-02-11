@@ -15,6 +15,7 @@ statsmodels # Análisis de tendencias y estacionalidad
 scikit-learn # Clustering de tickets y predicciones básicas
 prophet # Predicción de volumen de tickets (Meta)
 xgboost
+lightgbm
 
 # utilidades
 ipykernel
