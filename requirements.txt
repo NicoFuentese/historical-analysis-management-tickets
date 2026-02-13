@@ -23,3 +23,5 @@ tqdm
 python-dotenv
 
 # utilidades adicionales (glob y os son módulos built-in)
+google-generativeai
+boto3
